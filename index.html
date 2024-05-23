@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Love+Light&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Love+Light&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Chubak&Nuria</title>
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <h1 class="main__title"><p class="husband">Chubak</p> <p class="and">&</p> <p class="wife">Nuria</p></h1>
+    </div>
+  </div>
+  <section class="greeting">
+    <div class="container">
+      <h2 class="greeting__title">Дорогие родные и друзья!</h2>
+      <p class="greeting__text">Мы будем очень рады видеть Вас на долгожданном торжестве, посвященном нашему бракосочетанию.</p>
+    </div>
+  </section>
+  <section class="time-place">
+    <div class="container">
+      <div class="time flex">
+        <div class="time__offer">
+          <h2 class="time__title">07.14.2023</h2>
+          <p class="time__text">Мы будем очень рады если вы присоединитесь к нам в этот особенный для нас день</p>
+        </div>
+        <img class="time__img" src="./img/time-img.png" alt="">
+      </div>
+      <div class="place flex">
+        <div class="place__offer">
+          <img class="time__img" src="./img/place-img.png" alt="">
+        </div>
+        <p class="place__text"><span class="location">“GRAND HYATT”</span>
+          Korea, Seoul</p>
+      </div>
+    </div>
+  </section>
+  <section class="program">
+    <h2 class="program__title">Программа дня:</h2>
+    <div class="program__time">
+      <div class="time-start"><p class="time-start__text">16:30</p><span class="dash"></span><p class="program-name">Сбор гостей</p></div>
+      <div class="time-start"><p class="time-start__text">17:00</p><span class="dash"></span><p class="program-name">Церемония</p></div>
+      <div class="time-start"><p class="time-start__text">18:00</p><span class="dash"></span><p class="program-name">Банкет</p></div>
+    </div>
+  </section>
+  <section class="dress-code">
+    <div class="container">
+      <h2 class="dress-code__title">Дресс-код:</h2>
+      <p class="dress-code__text">Мы будем рады видеть вас в любом наряде,но 
+        нам будет еще приятнее,если вы поддержите 
+       общую гамму нашего торжества</p>
+       <div class="circle"></div>
+       <div class="example1">
+        <img src="./img/dress1.png" alt="" class="exaple__img">
+        <img src="./img/dress2.png" alt="" class="exaple__img">
+        <img src="./img/dress3.png" alt="" class="exaple__img">
+       </div>
+       <div class="example2">
+        <img src="./img/dress4.png" alt="" class="exaple__img2">
+        <img src="./img/dress5.png" alt="" class="exaple__img2">
+       </div>
+       <img src="./img/wedding-img.png" alt="" class="wedding-img">
+    </div>
+  </section>
+  <section class="invation">
+    <div class="container">
+      <p class="invation__title">
+        Потвердите свое присутствие,пожалуйста 
+      </p>
+      <form id="myForm" action="https://formspree.io/f/mbjnekoo" method="POST">
+    <div class="input-container">
+        <input id="name" type="text" name="name" class="input-name input" required>
+        <label for="name">Ваше имя и фамилия</label>
+    </div>
+    <div class="input-container">        
+        <input id="phone" type="number" name="phone" class="input-phone input" required>
+        <label for="phone">Номер телефона</label>
+    </div>
+    <div class="input-container2">
+        <div class="radio-container">
+            <input id="invation-info1" type="radio" name="invitation" value="Я смогу прийти">
+            <label for="invation-info1"></label>
+            <span>Я смогу прийти</span>
+        </div>
+        <div class="radio-container radio-container_1">
+            <input id="invation-info2" type="radio" name="invitation" value="Я не смогу прийти">
+            <label for="invation-info2"></label>
+            <span>Я не смогу прийти</span>
+        </div>
+    </div>
+    <button class="btn" id="submitButton" type="submit">Отправить</button>
+    </form>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <h2 class="footer__title">
+        ДО ВСТРЕЧИ!
+      </h2>
+    </div>
+  </footer>
+  <script src="./js/main.js"></script>
+  
+</body>
+</html>
