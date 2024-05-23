@@ -45,7 +45,7 @@ table {
 	border-spacing: 0;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 850px) {
   body{
   color: #000;
   font-family: "Lato", sans-serif;
@@ -53,7 +53,7 @@ table {
 }
 p{
   font-weight: 300;
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
 }
 h2{
@@ -103,7 +103,6 @@ section img{
 .flex{
   display: flex;
   align-items: center;
-  height:320px;
   justify-content: space-between;
 }
 .time__offer{
@@ -111,10 +110,9 @@ section img{
 }
 .time__text{
   text-align: left;
-  margin-left: 10px;
 }
 .time__img{
-  max-width: 180px;
+  max-width: 160px;
 }
 .place{
   margin-top: 60px;
@@ -123,6 +121,7 @@ section img{
   margin: auto 0;
   display: flex;
   align-items: center;
+  font-size: 13px;
 }
 .place__text::before{
   content: '';
@@ -134,6 +133,7 @@ section img{
 }
 .location{
   font-weight: 700;
+  font-size: 13px;
 }
 .program__time{
   height: 150px;
@@ -171,9 +171,15 @@ section img{
   justify-content: space-between;
   margin-bottom: 27px;
 }
+.example__img{
+  max-width: 125px;
+}
 .example2{
   display: flex;
   justify-content: space-around;
+}
+.example__img2{
+  max-width: 180px;
 }
 .invation__title{
   font-weight: 700;
@@ -279,4 +285,21 @@ footer{
   font-size: 40px;
   color: #fff;
 }
+}
+@media (max-width: 410px) {
+  .husband{
+    font-size: 90px;
+  }
+  h2{
+    font-size: 22px;
+  }
+  p{
+    font-size: 12px;
+  }
+  .example__img{
+    width: 30%;
+  }
+  .example__img2{
+    width: 45%;
+  }
 }
