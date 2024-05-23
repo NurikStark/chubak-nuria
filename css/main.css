@@ -302,4 +302,7 @@ footer{
   .example__img2{
     width: 45%;
   }
+.time__title{
+    text-align: left;
+  }
 }
